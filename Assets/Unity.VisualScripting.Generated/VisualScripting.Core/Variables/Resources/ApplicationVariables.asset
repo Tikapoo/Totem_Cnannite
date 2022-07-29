@@ -13,6 +13,40 @@ MonoBehaviour:
   m_Name: ApplicationVariables
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"First_God","value":{"$content":[0,0,0],"$type":"System.Collections.Generic.List`1[[System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"music","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"collection":{"$content":[{"name":"First_God","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Second_God","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Theird_God","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Head","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"body","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"legs","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"music","value":null,"$version":"A"},{"name":"Head
+      List","value":{"$content":[0,1,2,3,4,5,6,7,8,9,10,11,12],"$type":"System.Collections.Generic.List`1[[UnityEngine.Sprite,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"Body
+      List","value":{"$content":[13,14,15,16,17,18,19,20],"$type":"System.Collections.Generic.List`1[[UnityEngine.Sprite,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"Legs
+      list","value":{"$content":[21,22,23,24,25,26,27,28],"$type":"System.Collections.Generic.List`1[[UnityEngine.Sprite,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 21300000, guid: 0e7f703adabbcbf45a54065ca37f03d1, type: 3}
+    - {fileID: 21300000, guid: 0a587d59d2c403a4aafb80ba619fd150, type: 3}
+    - {fileID: 21300000, guid: 3027b4c68dc99ea449318449ec1ce879, type: 3}
+    - {fileID: 21300000, guid: 55275ef316f0c9a40a9cd17a841f104c, type: 3}
+    - {fileID: 21300000, guid: ac0c8e2f222e81848a3eae45860b81f0, type: 3}
+    - {fileID: 21300000, guid: ee642fe4b6dc57d45b8efa27953a05bf, type: 3}
+    - {fileID: 21300000, guid: a20deeeca4f108d44adc82f718bb6dda, type: 3}
+    - {fileID: 21300000, guid: ad654f369f7fed249bcf4f1fb8691b0e, type: 3}
+    - {fileID: 21300000, guid: 31f59af9ed492ca47971ea8f91158310, type: 3}
+    - {fileID: 21300000, guid: ef8e5dd88b945b642933163997ad9f43, type: 3}
+    - {fileID: 21300000, guid: dc6dc3958f15ba9459dee215d57fe5d4, type: 3}
+    - {fileID: 21300000, guid: f68c6646d5e971741b11ff9b68704be5, type: 3}
+    - {fileID: 21300000, guid: 2e020e85642771242a9c27033abde705, type: 3}
+    - {fileID: 21300000, guid: 6e1bf66a6262ac34ca86121e50239fac, type: 3}
+    - {fileID: 21300000, guid: c30233d23f677864ead9187bf3df62af, type: 3}
+    - {fileID: 21300000, guid: b40aa3a86abd2ff4ab2a72826aea6f72, type: 3}
+    - {fileID: 21300000, guid: 44b3ee85407721944bb980aaa8bf7fe9, type: 3}
+    - {fileID: 21300000, guid: ab77180ebb7746e4983bbe0e071ceac0, type: 3}
+    - {fileID: 21300000, guid: 5008edd3bc0f6e442871fa1b1bcb0740, type: 3}
+    - {fileID: 21300000, guid: 4e57531393a10464c8e20a9f7d49f4a0, type: 3}
+    - {fileID: 21300000, guid: 1868f2efe4b7c01498c40d7d70897010, type: 3}
+    - {fileID: 21300000, guid: 95b8668d3a6d1b74aa7a8109205d256c, type: 3}
+    - {fileID: 21300000, guid: cbc14db7c2897d6439657991cfea2705, type: 3}
+    - {fileID: 21300000, guid: 8392480edbb1df64cb7911ba2b7fa832, type: 3}
+    - {fileID: 21300000, guid: c23c75b3ec393c246899f5ea6dd20599, type: 3}
+    - {fileID: 21300000, guid: af89b8eca3272c149bbadf3861134ab2, type: 3}
+    - {fileID: 21300000, guid: ee031ddfc6535164397555364d607574, type: 3}
+    - {fileID: 21300000, guid: 189e1d673203bbf4da240623ce72e757, type: 3}
+    - {fileID: 21300000, guid: bda9ea30d6dd65d419315c79d983c26c, type: 3}
