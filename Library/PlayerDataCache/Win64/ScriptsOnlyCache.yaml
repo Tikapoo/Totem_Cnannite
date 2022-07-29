@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
@@ -1872,4 +1873,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/5C_Ending_Good.unity
   - Assets/Scenes/3C_Build it yourself.unity
   - Assets/Scenes/4_Ending_Bad.unity
-  playerPath: C:/Users/yuval/Documents/GitHub/Totem_Cnannite/Totem_Cnnanite.exe
+  playerPath: C:/Users/yuval/Documents/GitHub/Totem_Cnannite/Build/Totem_Cnnanite.exe
