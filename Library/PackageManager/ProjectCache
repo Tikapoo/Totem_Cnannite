@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637947346808183408
-    m_Hash: 391234798
+      ticks: 637947369635524106
+    m_Hash: 89989274
   m_LockFileStatus:
     m_FilePath: C:/Users/krop8/Documents/GitHub/totem jam 2/Totem_Cnannite/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637947346808183408
-    m_Hash: 2496082768
+      ticks: 637947369635570049
+    m_Hash: 1708482236
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,56 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/krop8/Documents/GitHub/totem jam 2/Totem_Cnannite/Packages
 m_EditorVersion: 2021.1.21f1 (f2d5d3c59f8c)
 m_ResolvedPackages:
+- packageId: com.totem.totemgenerator@https://github.com/Totem-gdn/TotemGeneratorUnity.git
+  testable: 0
+  isDirectDependency: 1
+  version: 2.0.0
+  source: 5
+  resolvedPath: C:\Users\krop8\Documents\GitHub\totem jam 2\Totem_Cnannite\Library\PackageCache\com.totem.totemgenerator@14022724c5
+  assetPath: Packages/com.totem.totemgenerator
+  name: com.totem.totemgenerator
+  displayName: Totem Generator for Unity
+  author:
+    name: Snir Sharristh
+    email: snir@hey.com
+    url: https://github.com/Totem-gdn/TotemGeneratorUnity
+  category: 
+  type: 
+  description: A simple generator for Unity!
+  status: 4
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - Totem
+  - TotemGenerator
+  registry:
+    id: 
+    name: 
+    url: 
+    scopes: []
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
 - packageId: com.unity.2d.animation@6.0.5
   testable: 0
   isDirectDependency: 1
@@ -113,6 +163,7 @@ m_ResolvedPackages:
     - 5.1.1
     - 5.2.0
     - 5.2.1
+    - 5.2.3
     - 6.0.0-pre.1
     - 6.0.0-pre.2
     - 6.0.1
@@ -555,6 +606,7 @@ m_ResolvedPackages:
     - 7.0.2
     - 7.0.3
     - 7.0.4
+    - 7.0.5
     - 8.0.0-pre.4
     - 8.0.0-pre.5
     - 8.0.0
@@ -856,6 +908,9 @@ m_ResolvedPackages:
     - 1.15.16
     - 1.15.17
     - 1.15.18
+    - 1.17.0
+    - 1.17.1
+    - 1.17.2
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -892,6 +947,9 @@ m_ResolvedPackages:
     - 1.15.16
     - 1.15.17
     - 1.15.18
+    - 1.17.0
+    - 1.17.1
+    - 1.17.2
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -994,6 +1052,7 @@ m_ResolvedPackages:
     - 3.0.12
     - 3.0.13
     - 3.0.14
+    - 3.0.15
     compatible:
     - 3.0.7
     - 3.0.9
@@ -1001,7 +1060,8 @@ m_ResolvedPackages:
     - 3.0.12
     - 3.0.13
     - 3.0.14
-    verified: 3.0.14
+    - 3.0.15
+    verified: 3.0.15
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -1072,12 +1132,14 @@ m_ResolvedPackages:
     - 2.0.12
     - 2.0.14
     - 2.0.15
+    - 2.0.16
     compatible:
     - 2.0.11
     - 2.0.12
     - 2.0.14
     - 2.0.15
-    verified: 2.0.15
+    - 2.0.16
+    verified: 2.0.16
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -1232,6 +1294,7 @@ m_ResolvedPackages:
     - 1.1.29
     - 1.1.30
     - 1.1.31
+    - 1.1.33
     - 2.0.1-exp.1
     - 2.0.1-pre.12
     - 2.0.1-pre.18
@@ -1239,10 +1302,11 @@ m_ResolvedPackages:
     - 1.1.29
     - 1.1.30
     - 1.1.31
+    - 1.1.33
     - 2.0.1-exp.1
     - 2.0.1-pre.12
     - 2.0.1-pre.18
-    verified: 1.1.31
+    verified: 1.1.33
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -3649,9 +3713,11 @@ m_ResolvedPackages:
     - 1.0.5
     - 1.0.6
     - 2.0.2
+    - 2.0.3
     compatible:
     - 1.0.6
     - 2.0.2
+    - 2.0.3
     verified: 1.0.6
   dependencies: []
   resolvedDependencies: []
@@ -3809,6 +3875,7 @@ m_ResolvedPackages:
     - 7.0.0-pre.4
     - 7.0.0
     - 8.0.0-pre.1
+    - 8.0.0-pre.2
     compatible:
     - 5.0.0
     verified: 5.0.0

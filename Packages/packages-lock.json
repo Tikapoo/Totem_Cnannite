@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.totem.totemgenerator": {
+      "version": "https://github.com/Totem-gdn/TotemGeneratorUnity.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "14022724c590482718c8079566ce55c9b98a1abd"
+    },
     "com.unity.2d.animation": {
       "version": "6.0.5",
       "depth": 0,
