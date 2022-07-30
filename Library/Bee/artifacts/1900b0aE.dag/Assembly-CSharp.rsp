@@ -381,6 +381,7 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+"Assets/TotemManager.cs"
 "Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_TMPro_HorizontalAlignmentOptions.cs"
 "Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_TMPro_TextAlignmentOptions.cs"
 "Assets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers/PropertyProvider_TMPro_TMP_Character.cs"

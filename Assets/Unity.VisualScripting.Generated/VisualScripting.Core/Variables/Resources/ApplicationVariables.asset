@@ -19,7 +19,8 @@ MonoBehaviour:
       List","value":{"$content":[13,14,15,16,17,18,19,20],"$type":"System.Collections.Generic.List`1[[UnityEngine.Sprite,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"Legs
       list","value":{"$content":[21,22,23,24,25,26,27,28],"$type":"System.Collections.Generic.List`1[[UnityEngine.Sprite,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"unlocables","value":{"$content":[8,9,10,11,12],"$type":"System.Collections.Generic.List`1[[System.Int32,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"testunlocks","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"unlocked
+      heads","value":{"$content":[0,1,2,3,4,5,6,7],"$type":"System.Collections.Generic.List`1[[System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 21300000, guid: 0e7f703adabbcbf45a54065ca37f03d1, type: 3}

@@ -1,10 +1,12 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - TotemDemo.TotemManager
+    - TotemDemo.UILoadingScreen
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
@@ -24,6 +26,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshPro
+    - TMPro.TextMeshProUGUI
     Unity.VisualScripting.Core.Editor.dll:
     - Unity.VisualScripting.GraphWindow
     Unity.VisualScripting.Core.dll:
@@ -33,17 +36,18 @@ ScriptsOnlyBuild:
     - Unity.VisualScripting.VariablesAsset
     Unity.VisualScripting.Flow.dll:
     - Unity.VisualScripting.FlowMachine
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
   sceneClasses:
     Assets/Scenes/0_Main Menu.unity:
     - Class: 1
@@ -62,16 +66,30 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1514}
+    - Class: 114
       Script: {instanceID: 2220}
+    - Class: 114
+      Script: {instanceID: 2728}
+    - Class: 114
+      Script: {instanceID: 2970}
+    - Class: 114
+      Script: {instanceID: 3288}
     - Class: 114
       Script: {instanceID: 3520}
     - Class: 114
@@ -81,13 +99,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4500}
     - Class: 114
-      Script: {instanceID: 4814}
+      Script: {instanceID: 4808}
     - Class: 114
-      Script: {instanceID: 5238}
+      Script: {instanceID: 4816}
     - Class: 114
-      Script: {instanceID: 5666}
+      Script: {instanceID: 5240}
     - Class: 114
-      Script: {instanceID: 8530}
+      Script: {instanceID: 5578}
+    - Class: 114
+      Script: {instanceID: 5668}
+    - Class: 114
+      Script: {instanceID: 5890}
+    - Class: 114
+      Script: {instanceID: 6342}
+    - Class: 114
+      Script: {instanceID: 6536}
+    - Class: 114
+      Script: {instanceID: 6916}
+    - Class: 114
+      Script: {instanceID: 8532}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -99,6 +129,12 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/1_About Game.unity:
     - Class: 1
@@ -126,9 +162,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3588}
     - Class: 114
-      Script: {instanceID: 5238}
+      Script: {instanceID: 5240}
     - Class: 114
-      Script: {instanceID: 8530}
+      Script: {instanceID: 8532}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -179,11 +215,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3808}
     - Class: 114
-      Script: {instanceID: 5238}
+      Script: {instanceID: 5240}
     - Class: 114
-      Script: {instanceID: 5666}
+      Script: {instanceID: 5668}
     - Class: 114
-      Script: {instanceID: 8530}
+      Script: {instanceID: 8532}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -236,11 +272,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3808}
     - Class: 114
-      Script: {instanceID: 5238}
+      Script: {instanceID: 5240}
     - Class: 114
-      Script: {instanceID: 5666}
+      Script: {instanceID: 5668}
     - Class: 114
-      Script: {instanceID: 8530}
+      Script: {instanceID: 8532}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -293,11 +329,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3808}
     - Class: 114
-      Script: {instanceID: 5238}
+      Script: {instanceID: 5240}
     - Class: 114
-      Script: {instanceID: 5666}
+      Script: {instanceID: 5668}
     - Class: 114
-      Script: {instanceID: 8530}
+      Script: {instanceID: 8532}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -342,11 +378,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3808}
     - Class: 114
-      Script: {instanceID: 5238}
+      Script: {instanceID: 5240}
     - Class: 114
-      Script: {instanceID: 5666}
+      Script: {instanceID: 5668}
     - Class: 114
-      Script: {instanceID: 8530}
+      Script: {instanceID: 8532}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -383,9 +419,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3588}
     - Class: 114
-      Script: {instanceID: 5238}
+      Script: {instanceID: 5240}
     - Class: 114
-      Script: {instanceID: 8530}
+      Script: {instanceID: 8532}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -420,9 +456,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3588}
     - Class: 114
-      Script: {instanceID: 5238}
+      Script: {instanceID: 5240}
     - Class: 114
-      Script: {instanceID: 8530}
+      Script: {instanceID: 8532}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -463,9 +499,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3588}
     - Class: 114
-      Script: {instanceID: 5238}
+      Script: {instanceID: 5240}
     - Class: 114
-      Script: {instanceID: 8530}
+      Script: {instanceID: 8532}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1107,6 +1143,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 78e483fe474ac91fe56134ae9ce1a4b4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TotemDemo
+    className: TotemManager
   - hash:
       serializedVersion: 2
       Hash: fd68d84f33fad85aac38f2739c0ee270
@@ -1964,5 +2006,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/5C_Ending_Good.unity
   - Assets/Scenes/3C_Build it yourself.unity
   - Assets/Scenes/4_Ending_Bad.unity
-  playerPath: C:/Users/krop8/Documents/GitHub/totem jam 2/Totem_Cnannite/ofek build
-    test/Totem_Cnnanite.exe
+  playerPath: C:/Users/krop8/Documents/GitHub/totem jam 2/Totem_Cnannite/cnaanite
+    idol/Totem_Cnnanite.exe

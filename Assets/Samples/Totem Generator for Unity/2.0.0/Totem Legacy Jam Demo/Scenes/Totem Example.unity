@@ -1499,7 +1499,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c4af5b1a7c6454458f5e84289107ef4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameId: TotemDemo
+  _gameId: legacyjam2-test
   loginButton: {fileID: 1973338928}
   googleLoginObject: {fileID: 1511224183}
   profileNameObject: {fileID: 1502288916}
@@ -1508,8 +1508,6 @@ MonoBehaviour:
   dataToCompoareInput: {fileID: 1103151659}
   assetList: {fileID: 2127360138}
   legacyRecordsList: {fileID: 1579651362}
-  WriteLegacyButtons: {fileID: 1530744193}
-  ReadLegacyButtons: {fileID: 1781102721}
   popupAnimator: {fileID: 318359535}
 --- !u!1 &585075433
 GameObject:
